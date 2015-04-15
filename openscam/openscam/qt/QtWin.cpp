@@ -948,8 +948,7 @@ void QtWin::loadTool(unsigned number) {
 
   currentTool = project->getToolTable()->get(number);
 
-  real scale =
-    currentTool->getUnits() == ToolUnits::UNITS_MM ? 1.0 : 1.0 / 25.4;
+  real scale = currentTool->getUnits() == ToolUnits::UNITS_MM ? 1.0 : 1.0 / 25.4;
 
   {
     LOCK_UI_UPDATES;
