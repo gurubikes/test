@@ -1,0 +1,1374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{54cd65d7-3afa-4038-a380-075735cb694e}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{e9f5cb1c-a0c5-4cf8-accb-7366edc2c356}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Files\openscam">
+      <UniqueIdentifier>{4bef0f98-ec09-4652-9aed-f4d58e57b9c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\openscam\qt">
+      <UniqueIdentifier>{0abccb96-d20d-4d80-bd50-50b2cd7b555a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\openscam">
+      <UniqueIdentifier>{69701693-25a7-4ff6-9fee-3931cc6230a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\openscam\qt">
+      <UniqueIdentifier>{b37ed4a9-3b31-4be9-9236-d02c5507c961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\openscam\contour">
+      <UniqueIdentifier>{b954bbea-d768-437f-ad2c-2690844f8999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\openscam\cutsim">
+      <UniqueIdentifier>{f01b53d2-efe5-494a-a449-406211051c19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\openscam\dxf">
+      <UniqueIdentifier>{1a2b25cc-f4cc-4f88-8051-39d2dde425e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\openscam\gcode">
+      <UniqueIdentifier>{a5030549-bbda-43f4-a589-813374243eb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\openscam\opt">
+      <UniqueIdentifier>{29e4c783-8d76-4ac7-a42a-a7b53100cf59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\openscam\pcb">
+      <UniqueIdentifier>{5cbb2322-8558-492e-8ff3-8ff6d59f0d9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\openscam\probe">
+      <UniqueIdentifier>{df026e6a-c140-486f-a6e7-6188f29db8b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\openscam\remote">
+      <UniqueIdentifier>{f46e48c6-2e75-44e9-9df7-49825aa86851}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\openscam\render">
+      <UniqueIdentifier>{479ce96a-61d4-4722-89c6-3b762bfd1d73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\openscam\sim">
+      <UniqueIdentifier>{a3473c3f-145d-486f-86cd-7053478696e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\openscam\stl">
+      <UniqueIdentifier>{259b5570-abf9-4aa1-b8d7-733e5b18ad76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\openscam\value">
+      <UniqueIdentifier>{d3839670-fa6e-4cf1-834e-6d3c67185803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\openscam\view">
+      <UniqueIdentifier>{10992110-1427-460f-96b7-a8b00a138021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\openscam\contour">
+      <UniqueIdentifier>{19f1aad7-338c-4e32-9107-d0c61c80788b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\openscam\cutsim">
+      <UniqueIdentifier>{1b92c454-ec45-4e8b-8df7-e5f51eafd945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\openscam\dxf">
+      <UniqueIdentifier>{9a7812d1-5aed-4a13-a5a0-339994564161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\openscam\gcode">
+      <UniqueIdentifier>{b11dabdc-db4c-4739-8767-11971333a539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\openscam\view">
+      <UniqueIdentifier>{be6a4ac8-c5ee-4434-a1ae-66aa1b400d4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\openscam\value">
+      <UniqueIdentifier>{a266507c-905f-4c08-8a03-98be7fe69d64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\openscam\stl">
+      <UniqueIdentifier>{a0f9bdf4-9a1a-4e12-bf0d-a297c8934695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\openscam\sim">
+      <UniqueIdentifier>{e9ec493d-4027-4184-a885-493de08d89e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\openscam\render">
+      <UniqueIdentifier>{0dca86db-06d3-42ec-bbfb-0d7c7b1c3537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\openscam\remote">
+      <UniqueIdentifier>{50307d6e-99b2-4d8b-9c76-da86951caa5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\openscam\probe">
+      <UniqueIdentifier>{92718732-e7e2-4555-a5d7-b7a74d75a361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\openscam\pcb">
+      <UniqueIdentifier>{4498dcd3-990b-4c06-a220-7a1686a145b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\openscam\opt">
+      <UniqueIdentifier>{eb919efd-9951-4a10-9dd1-7d48854714c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\openscam\dxf\dxflib">
+      <UniqueIdentifier>{e906a3fb-5dda-43de-b015-9e64a0079584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\openscam\gcode\ast">
+      <UniqueIdentifier>{a43e437c-5e91-4e45-868c-1979292a01a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\openscam\dxf\dxflib">
+      <UniqueIdentifier>{5e6e858b-06f0-4ca1-9349-d3378e9fc44c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\openscam\gcode\ast">
+      <UniqueIdentifier>{ab15a6ee-653e-4dc6-b214-cda6cbcb7d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tplang">
+      <UniqueIdentifier>{4bedcea3-6624-4670-a652-c4948c17fd69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\glew">
+      <UniqueIdentifier>{7c25273d-ceef-4645-81e4-c9d903e78291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\clipper">
+      <UniqueIdentifier>{bbbe6e10-41b4-4ad6-b127-12b6fa4f0649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\glew">
+      <UniqueIdentifier>{4ac8f7a0-627b-4c70-9fb8-b665cc6bab02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\clipper">
+      <UniqueIdentifier>{809d869f-9559-4d75-9a4c-5d60a0ce0382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tplang">
+      <UniqueIdentifier>{b5deb565-ccb0-4e48-977e-c22d85790a8d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_openscam.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\qt\AboutDialog.cpp">
+      <Filter>Source Files\openscam\qt</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AboutDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AboutDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\qt\ClickWidget.cpp">
+      <Filter>Source Files\openscam\qt</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\qt\CutSimThread.cpp">
+      <Filter>Source Files\openscam\qt</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\qt\DonateDialog.cpp">
+      <Filter>Source Files\openscam\qt</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DonateDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DonateDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\qt\ExportDialog.cpp">
+      <Filter>Source Files\openscam\qt</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\qt\FileDialog.cpp">
+      <Filter>Source Files\openscam\qt</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\qt\FileTabManager.cpp">
+      <Filter>Source Files\openscam\qt</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FileTabManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FileTabManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\qt\GCodeHighlighter.cpp">
+      <Filter>Source Files\openscam\qt</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\qt\GLView.cpp">
+      <Filter>Source Files\openscam\qt</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_GLView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_GLView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\qt\Highlighter.cpp">
+      <Filter>Source Files\openscam\qt</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\qt\NCEdit.cpp">
+      <Filter>Source Files\openscam\qt</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NCEdit.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NCEdit.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\qt\NewDialog.cpp">
+      <Filter>Source Files\openscam\qt</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\qt\ProjectModel.cpp">
+      <Filter>Source Files\openscam\qt</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ProjectModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ProjectModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\qt\QApplication.cpp">
+      <Filter>Source Files\openscam\qt</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\qt\QtApp.cpp">
+      <Filter>Source Files\openscam\qt</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\qt\QtWin.cpp">
+      <Filter>Source Files\openscam\qt</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QtWin.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QtWin.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\qt\SidebarWidget.cpp">
+      <Filter>Source Files\openscam\qt</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\qt\SurfaceThread.cpp">
+      <Filter>Source Files\openscam\qt</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\qt\ToolPathThread.cpp">
+      <Filter>Source Files\openscam\qt</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\qt\TPLHighlighter.cpp">
+      <Filter>Source Files\openscam\qt</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\contour\CellSlice.cpp">
+      <Filter>Source Files\openscam\contour</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\contour\CompositeSurface.cpp">
+      <Filter>Source Files\openscam\contour</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\contour\ContourGenerator.cpp">
+      <Filter>Source Files\openscam\contour</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\contour\DualContouring.cpp">
+      <Filter>Source Files\openscam\contour</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\contour\ElementSurface.cpp">
+      <Filter>Source Files\openscam\contour</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\contour\FieldFunction.cpp">
+      <Filter>Source Files\openscam\contour</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\contour\HermiteData.cpp">
+      <Filter>Source Files\openscam\contour</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\contour\HermiteSlice.cpp">
+      <Filter>Source Files\openscam\contour</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\contour\MarchingCubes.cpp">
+      <Filter>Source Files\openscam\contour</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\contour\QEF.cpp">
+      <Filter>Source Files\openscam\contour</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\contour\SampleSlice.cpp">
+      <Filter>Source Files\openscam\contour</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\contour\Surface.cpp">
+      <Filter>Source Files\openscam\contour</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\cutsim\AABB.cpp">
+      <Filter>Source Files\openscam\cutsim</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\cutsim\AABBTree.cpp">
+      <Filter>Source Files\openscam\cutsim</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\cutsim\CompositeSweep.cpp">
+      <Filter>Source Files\openscam\cutsim</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\cutsim\ConicSweep.cpp">
+      <Filter>Source Files\openscam\cutsim</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\cutsim\CutSim.cpp">
+      <Filter>Source Files\openscam\cutsim</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\cutsim\CutWorkpiece.cpp">
+      <Filter>Source Files\openscam\cutsim</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\cutsim\Move.cpp">
+      <Filter>Source Files\openscam\cutsim</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\cutsim\MoveType.cpp">
+      <Filter>Source Files\openscam\cutsim</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\cutsim\NCFile.cpp">
+      <Filter>Source Files\openscam\cutsim</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\cutsim\Project.cpp">
+      <Filter>Source Files\openscam\cutsim</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\cutsim\ResolutionMode.cpp">
+      <Filter>Source Files\openscam\cutsim</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\cutsim\SpheroidSweep.cpp">
+      <Filter>Source Files\openscam\cutsim</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\cutsim\Sweep.cpp">
+      <Filter>Source Files\openscam\cutsim</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\cutsim\ToolPath.cpp">
+      <Filter>Source Files\openscam\cutsim</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\cutsim\ToolSweep.cpp">
+      <Filter>Source Files\openscam\cutsim</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\cutsim\Workpiece.cpp">
+      <Filter>Source Files\openscam\cutsim</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\dxf\DXFReader.cpp">
+      <Filter>Source Files\openscam\dxf</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\dxf\dxflib\dl_dxf.cpp">
+      <Filter>Source Files\openscam\dxf\dxflib</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\dxf\dxflib\dl_writer_ascii.cpp">
+      <Filter>Source Files\openscam\dxf\dxflib</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\gcode\Codes.cpp">
+      <Filter>Source Files\openscam\gcode</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\gcode\Evaluator.cpp">
+      <Filter>Source Files\openscam\gcode</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\gcode\GCodeInterpreter.cpp">
+      <Filter>Source Files\openscam\gcode</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\gcode\Interpreter.cpp">
+      <Filter>Source Files\openscam\gcode</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\gcode\ModalGroup.cpp">
+      <Filter>Source Files\openscam\gcode</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\gcode\OCodeInterpreter.cpp">
+      <Filter>Source Files\openscam\gcode</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\gcode\Parser.cpp">
+      <Filter>Source Files\openscam\gcode</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\gcode\Printer.cpp">
+      <Filter>Source Files\openscam\gcode</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\gcode\Tokenizer.cpp">
+      <Filter>Source Files\openscam\gcode</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\gcode\TokenType.cpp">
+      <Filter>Source Files\openscam\gcode</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\gcode\ast\Assign.cpp">
+      <Filter>Source Files\openscam\gcode\ast</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\gcode\ast\BinaryOp.cpp">
+      <Filter>Source Files\openscam\gcode\ast</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\gcode\ast\Block.cpp">
+      <Filter>Source Files\openscam\gcode\ast</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\gcode\ast\Comment.cpp">
+      <Filter>Source Files\openscam\gcode\ast</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\gcode\ast\FunctionCall.cpp">
+      <Filter>Source Files\openscam\gcode\ast</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\gcode\ast\NamedReference.cpp">
+      <Filter>Source Files\openscam\gcode\ast</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\gcode\ast\Number.cpp">
+      <Filter>Source Files\openscam\gcode\ast</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\gcode\ast\OCode.cpp">
+      <Filter>Source Files\openscam\gcode\ast</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\gcode\ast\Operator.cpp">
+      <Filter>Source Files\openscam\gcode\ast</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\gcode\ast\Program.cpp">
+      <Filter>Source Files\openscam\gcode\ast</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\gcode\ast\QuotedExpr.cpp">
+      <Filter>Source Files\openscam\gcode\ast</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\gcode\ast\Reference.cpp">
+      <Filter>Source Files\openscam\gcode\ast</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\gcode\ast\UnaryOp.cpp">
+      <Filter>Source Files\openscam\gcode\ast</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\gcode\ast\Word.cpp">
+      <Filter>Source Files\openscam\gcode\ast</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\opt\AnnealState.cpp">
+      <Filter>Source Files\openscam\opt</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\opt\Group.cpp">
+      <Filter>Source Files\openscam\opt</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\opt\Opt.cpp">
+      <Filter>Source Files\openscam\opt</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\opt\Path.cpp">
+      <Filter>Source Files\openscam\opt</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\pcb\Arc.cpp">
+      <Filter>Source Files\openscam\pcb</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\pcb\Element.cpp">
+      <Filter>Source Files\openscam\pcb</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\pcb\ElementArc.cpp">
+      <Filter>Source Files\openscam\pcb</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\pcb\ElementLine.cpp">
+      <Filter>Source Files\openscam\pcb</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\pcb\Layer.cpp">
+      <Filter>Source Files\openscam\pcb</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\pcb\Layout.cpp">
+      <Filter>Source Files\openscam\pcb</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\pcb\Line.cpp">
+      <Filter>Source Files\openscam\pcb</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\pcb\NetList.cpp">
+      <Filter>Source Files\openscam\pcb</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\pcb\Object.cpp">
+      <Filter>Source Files\openscam\pcb</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\pcb\Pad.cpp">
+      <Filter>Source Files\openscam\pcb</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\pcb\Pin.cpp">
+      <Filter>Source Files\openscam\pcb</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\pcb\Polygon.cpp">
+      <Filter>Source Files\openscam\pcb</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\pcb\Symbol.cpp">
+      <Filter>Source Files\openscam\pcb</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\pcb\Text.cpp">
+      <Filter>Source Files\openscam\pcb</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\pcb\Via.cpp">
+      <Filter>Source Files\openscam\pcb</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\probe\Probe.cpp">
+      <Filter>Source Files\openscam\probe</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\probe\ProbeGrid.cpp">
+      <Filter>Source Files\openscam\probe</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\remote\Connection.cpp">
+      <Filter>Source Files\openscam\remote</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\remote\ConnectionManager.cpp">
+      <Filter>Source Files\openscam\remote</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\render\Renderer.cpp">
+      <Filter>Source Files\openscam\render</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\render\RenderJob.cpp">
+      <Filter>Source Files\openscam\render</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\render\RenderMode.cpp">
+      <Filter>Source Files\openscam\render</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\sim\Controller.cpp">
+      <Filter>Source Files\openscam\sim</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\sim\Machine.cpp">
+      <Filter>Source Files\openscam\sim</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\sim\Tool.cpp">
+      <Filter>Source Files\openscam\sim</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\sim\ToolShape.cpp">
+      <Filter>Source Files\openscam\sim</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\sim\ToolTable.cpp">
+      <Filter>Source Files\openscam\sim</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\sim\ToolUnits.cpp">
+      <Filter>Source Files\openscam\sim</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\stl\STL.cpp">
+      <Filter>Source Files\openscam\stl</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\value\ValueGroup.cpp">
+      <Filter>Source Files\openscam\value</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\value\ValueSet.cpp">
+      <Filter>Source Files\openscam\value</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\view\BoundsView.cpp">
+      <Filter>Source Files\openscam\view</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\view\Color.cpp">
+      <Filter>Source Files\openscam\view</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\view\CuboidView.cpp">
+      <Filter>Source Files\openscam\view</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\view\GL.cpp">
+      <Filter>Source Files\openscam\view</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\view\GLFreeType.cpp">
+      <Filter>Source Files\openscam\view</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\view\ToolPathView.cpp">
+      <Filter>Source Files\openscam\view</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\view\ToolView.cpp">
+      <Filter>Source Files\openscam\view</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\view\View.cpp">
+      <Filter>Source Files\openscam\view</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\view\Viewer.cpp">
+      <Filter>Source Files\openscam\view</Filter>
+    </ClCompile>
+    <ClCompile Include="openscam\view\ViewPort.cpp">
+      <Filter>Source Files\openscam\view</Filter>
+    </ClCompile>
+    <ClCompile Include="tplang\Axes.cpp">
+      <Filter>Source Files\tplang</Filter>
+    </ClCompile>
+    <ClCompile Include="tplang\ClipperLibrary.cpp">
+      <Filter>Source Files\tplang</Filter>
+    </ClCompile>
+    <ClCompile Include="tplang\DXFLibrary.cpp">
+      <Filter>Source Files\tplang</Filter>
+    </ClCompile>
+    <ClCompile Include="tplang\GCodeLibrary.cpp">
+      <Filter>Source Files\tplang</Filter>
+    </ClCompile>
+    <ClCompile Include="tplang\GCodeMachine.cpp">
+      <Filter>Source Files\tplang</Filter>
+    </ClCompile>
+    <ClCompile Include="tplang\Interpreter.cpp">
+      <Filter>Source Files\tplang</Filter>
+    </ClCompile>
+    <ClCompile Include="tplang\Javascript.cpp">
+      <Filter>Source Files\tplang</Filter>
+    </ClCompile>
+    <ClCompile Include="tplang\MachineLinearizer.cpp">
+      <Filter>Source Files\tplang</Filter>
+    </ClCompile>
+    <ClCompile Include="tplang\MachineMatrix.cpp">
+      <Filter>Source Files\tplang</Filter>
+    </ClCompile>
+    <ClCompile Include="tplang\MachinePipeline.cpp">
+      <Filter>Source Files\tplang</Filter>
+    </ClCompile>
+    <ClCompile Include="tplang\MachineState.cpp">
+      <Filter>Source Files\tplang</Filter>
+    </ClCompile>
+    <ClCompile Include="tplang\MachineUnitAdapter.cpp">
+      <Filter>Source Files\tplang</Filter>
+    </ClCompile>
+    <ClCompile Include="tplang\MatrixLibrary.cpp">
+      <Filter>Source Files\tplang</Filter>
+    </ClCompile>
+    <ClCompile Include="tplang\MoveSink.cpp">
+      <Filter>Source Files\tplang</Filter>
+    </ClCompile>
+    <ClCompile Include="tplang\MoveStream.cpp">
+      <Filter>Source Files\tplang</Filter>
+    </ClCompile>
+    <ClCompile Include="tplang\TPLContext.cpp">
+      <Filter>Source Files\tplang</Filter>
+    </ClCompile>
+    <ClCompile Include="tplang\TransMatrix.cpp">
+      <Filter>Source Files\tplang</Filter>
+    </ClCompile>
+    <ClCompile Include="clipper\clipper.cpp">
+      <Filter>Source Files\clipper</Filter>
+    </ClCompile>
+    <ClCompile Include="glew\glew.c">
+      <Filter>Source Files\glew</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="openscam.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="openscam\qt\AboutDialog.h">
+      <Filter>Header Files\openscam\qt</Filter>
+    </CustomBuild>
+    <CustomBuild Include="openscam\qt\DonateDialog.h">
+      <Filter>Header Files\openscam\qt</Filter>
+    </CustomBuild>
+    <CustomBuild Include="openscam\qt\FileTabManager.h">
+      <Filter>Header Files\openscam\qt</Filter>
+    </CustomBuild>
+    <CustomBuild Include="openscam\qt\GLView.h">
+      <Filter>Header Files\openscam\qt</Filter>
+    </CustomBuild>
+    <CustomBuild Include="openscam\qt\NCEdit.h">
+      <Filter>Header Files\openscam\qt</Filter>
+    </CustomBuild>
+    <CustomBuild Include="openscam\qt\ProjectModel.h">
+      <Filter>Header Files\openscam\qt</Filter>
+    </CustomBuild>
+    <CustomBuild Include="openscam\qt\QtWin.h">
+      <Filter>Header Files\openscam\qt</Filter>
+    </CustomBuild>
+    <CustomBuild Include="about_dialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="donate_dialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="export_dialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="new_dialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="openscam.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="openscam\qt\ClickWidget.h">
+      <Filter>Header Files\openscam\qt</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\qt\ColorComponent.h">
+      <Filter>Header Files\openscam\qt</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\qt\CutSimThread.h">
+      <Filter>Header Files\openscam\qt</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\qt\ExportDialog.h">
+      <Filter>Header Files\openscam\qt</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\qt\FileDialog.h">
+      <Filter>Header Files\openscam\qt</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\qt\GCodeHighlighter.h">
+      <Filter>Header Files\openscam\qt</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\qt\Highlighter.h">
+      <Filter>Header Files\openscam\qt</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\qt\LineBuffer.h">
+      <Filter>Header Files\openscam\qt</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\qt\NewDialog.h">
+      <Filter>Header Files\openscam\qt</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\qt\QApplication.h">
+      <Filter>Header Files\openscam\qt</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\qt\QtApp.h">
+      <Filter>Header Files\openscam\qt</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\qt\QTextDevice.h">
+      <Filter>Header Files\openscam\qt</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\qt\SidebarWidget.h">
+      <Filter>Header Files\openscam\qt</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\qt\SurfaceThread.h">
+      <Filter>Header Files\openscam\qt</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\qt\ToolPathThread.h">
+      <Filter>Header Files\openscam\qt</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\qt\TPLHighlighter.h">
+      <Filter>Header Files\openscam\qt</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_about_dialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_donate_dialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_export_dialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_new_dialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_openscam.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\contour\Cell.h">
+      <Filter>Header Files\openscam\contour</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\contour\CellSlice.h">
+      <Filter>Header Files\openscam\contour</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\contour\CompositeSurface.h">
+      <Filter>Header Files\openscam\contour</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\contour\ContourGenerator.h">
+      <Filter>Header Files\openscam\contour</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\contour\DualContouring.h">
+      <Filter>Header Files\openscam\contour</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\contour\Edge.h">
+      <Filter>Header Files\openscam\contour</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\contour\ElementSurface.h">
+      <Filter>Header Files\openscam\contour</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\contour\FieldFunction.h">
+      <Filter>Header Files\openscam\contour</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\contour\HermiteData.h">
+      <Filter>Header Files\openscam\contour</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\contour\HermiteSlice.h">
+      <Filter>Header Files\openscam\contour</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\contour\MarchingCubes.h">
+      <Filter>Header Files\openscam\contour</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\contour\QEF.h">
+      <Filter>Header Files\openscam\contour</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\contour\SampleSlice.h">
+      <Filter>Header Files\openscam\contour</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\contour\Surface.h">
+      <Filter>Header Files\openscam\contour</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\cutsim\AABB.h">
+      <Filter>Header Files\openscam\cutsim</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\cutsim\AABBTree.h">
+      <Filter>Header Files\openscam\cutsim</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\cutsim\CompositeSweep.h">
+      <Filter>Header Files\openscam\cutsim</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\cutsim\ConicSweep.h">
+      <Filter>Header Files\openscam\cutsim</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\cutsim\CutSim.h">
+      <Filter>Header Files\openscam\cutsim</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\cutsim\CutWorkpiece.h">
+      <Filter>Header Files\openscam\cutsim</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\cutsim\Move.h">
+      <Filter>Header Files\openscam\cutsim</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\cutsim\MoveType.h">
+      <Filter>Header Files\openscam\cutsim</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\cutsim\NCFile.h">
+      <Filter>Header Files\openscam\cutsim</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\cutsim\Project.h">
+      <Filter>Header Files\openscam\cutsim</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\cutsim\ResolutionMode.h">
+      <Filter>Header Files\openscam\cutsim</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\cutsim\SpheroidSweep.h">
+      <Filter>Header Files\openscam\cutsim</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\cutsim\Sweep.h">
+      <Filter>Header Files\openscam\cutsim</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\cutsim\ToolPath.h">
+      <Filter>Header Files\openscam\cutsim</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\cutsim\ToolSweep.h">
+      <Filter>Header Files\openscam\cutsim</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\cutsim\Workpiece.h">
+      <Filter>Header Files\openscam\cutsim</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\dxf\DXFArc.h">
+      <Filter>Header Files\openscam\dxf</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\dxf\DXFEntity.h">
+      <Filter>Header Files\openscam\dxf</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\dxf\DXFLine.h">
+      <Filter>Header Files\openscam\dxf</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\dxf\DXFPoint.h">
+      <Filter>Header Files\openscam\dxf</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\dxf\DXFPolyLine.h">
+      <Filter>Header Files\openscam\dxf</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\dxf\DXFReader.h">
+      <Filter>Header Files\openscam\dxf</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\dxf\DXFSpline.h">
+      <Filter>Header Files\openscam\dxf</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\dxf\dxflib\dl_attributes.h">
+      <Filter>Header Files\openscam\dxf\dxflib</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\dxf\dxflib\dl_codes.h">
+      <Filter>Header Files\openscam\dxf\dxflib</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\dxf\dxflib\dl_creationadapter.h">
+      <Filter>Header Files\openscam\dxf\dxflib</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\dxf\dxflib\dl_creationinterface.h">
+      <Filter>Header Files\openscam\dxf\dxflib</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\dxf\dxflib\dl_dxf.h">
+      <Filter>Header Files\openscam\dxf\dxflib</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\dxf\dxflib\dl_entities.h">
+      <Filter>Header Files\openscam\dxf\dxflib</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\dxf\dxflib\dl_exception.h">
+      <Filter>Header Files\openscam\dxf\dxflib</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\dxf\dxflib\dl_extrusion.h">
+      <Filter>Header Files\openscam\dxf\dxflib</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\dxf\dxflib\dl_writer.h">
+      <Filter>Header Files\openscam\dxf\dxflib</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\dxf\dxflib\dl_writer_ascii.h">
+      <Filter>Header Files\openscam\dxf\dxflib</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\gcode\Codes.h">
+      <Filter>Header Files\openscam\gcode</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\gcode\Evaluator.h">
+      <Filter>Header Files\openscam\gcode</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\gcode\GCodeInterpreter.h">
+      <Filter>Header Files\openscam\gcode</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\gcode\Interpreter.h">
+      <Filter>Header Files\openscam\gcode</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\gcode\ModalGroup.h">
+      <Filter>Header Files\openscam\gcode</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\gcode\OCodeInterpreter.h">
+      <Filter>Header Files\openscam\gcode</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\gcode\Parser.h">
+      <Filter>Header Files\openscam\gcode</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\gcode\Printer.h">
+      <Filter>Header Files\openscam\gcode</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\gcode\Processor.h">
+      <Filter>Header Files\openscam\gcode</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\gcode\Token.h">
+      <Filter>Header Files\openscam\gcode</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\gcode\Tokenizer.h">
+      <Filter>Header Files\openscam\gcode</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\gcode\TokenType.h">
+      <Filter>Header Files\openscam\gcode</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\gcode\VarTypes.h">
+      <Filter>Header Files\openscam\gcode</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\gcode\ast\Assign.h">
+      <Filter>Header Files\openscam\gcode\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\gcode\ast\BinaryOp.h">
+      <Filter>Header Files\openscam\gcode\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\gcode\ast\Block.h">
+      <Filter>Header Files\openscam\gcode\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\gcode\ast\Comment.h">
+      <Filter>Header Files\openscam\gcode\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\gcode\ast\Entity.h">
+      <Filter>Header Files\openscam\gcode\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\gcode\ast\FunctionCall.h">
+      <Filter>Header Files\openscam\gcode\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\gcode\ast\NamedReference.h">
+      <Filter>Header Files\openscam\gcode\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\gcode\ast\Number.h">
+      <Filter>Header Files\openscam\gcode\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\gcode\ast\OCode.h">
+      <Filter>Header Files\openscam\gcode\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\gcode\ast\Operator.h">
+      <Filter>Header Files\openscam\gcode\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\gcode\ast\Program.h">
+      <Filter>Header Files\openscam\gcode\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\gcode\ast\QuotedExpr.h">
+      <Filter>Header Files\openscam\gcode\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\gcode\ast\Reference.h">
+      <Filter>Header Files\openscam\gcode\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\gcode\ast\UnaryOp.h">
+      <Filter>Header Files\openscam\gcode\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\gcode\ast\Word.h">
+      <Filter>Header Files\openscam\gcode\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\view\BoundsView.h">
+      <Filter>Header Files\openscam\view</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\view\Color.h">
+      <Filter>Header Files\openscam\view</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\view\CuboidView.h">
+      <Filter>Header Files\openscam\view</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\view\GL.h">
+      <Filter>Header Files\openscam\view</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\view\GLFreeType.h">
+      <Filter>Header Files\openscam\view</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\view\ToolPathView.h">
+      <Filter>Header Files\openscam\view</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\view\ToolView.h">
+      <Filter>Header Files\openscam\view</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\view\View.h">
+      <Filter>Header Files\openscam\view</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\view\Viewer.h">
+      <Filter>Header Files\openscam\view</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\view\ViewPort.h">
+      <Filter>Header Files\openscam\view</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\value\MemberFunctorObserver.h">
+      <Filter>Header Files\openscam\value</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\value\MemberFunctorValue.h">
+      <Filter>Header Files\openscam\value</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\value\Observer.h">
+      <Filter>Header Files\openscam\value</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\value\Value.h">
+      <Filter>Header Files\openscam\value</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\value\ValueGroup.h">
+      <Filter>Header Files\openscam\value</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\value\ValueSet.h">
+      <Filter>Header Files\openscam\value</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\value\VarValue.h">
+      <Filter>Header Files\openscam\value</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\stl\Facet.h">
+      <Filter>Header Files\openscam\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\stl\STL.h">
+      <Filter>Header Files\openscam\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\sim\Addresses.h">
+      <Filter>Header Files\openscam\sim</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\sim\Controller.h">
+      <Filter>Header Files\openscam\sim</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\sim\CoordinateSystem.h">
+      <Filter>Header Files\openscam\sim</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\sim\Machine.h">
+      <Filter>Header Files\openscam\sim</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\sim\Tool.h">
+      <Filter>Header Files\openscam\sim</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\sim\ToolShape.h">
+      <Filter>Header Files\openscam\sim</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\sim\ToolTable.h">
+      <Filter>Header Files\openscam\sim</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\sim\ToolUnits.h">
+      <Filter>Header Files\openscam\sim</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\render\Renderer.h">
+      <Filter>Header Files\openscam\render</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\render\RenderJob.h">
+      <Filter>Header Files\openscam\render</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\render\RenderMode.h">
+      <Filter>Header Files\openscam\render</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\remote\Connection.h">
+      <Filter>Header Files\openscam\remote</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\remote\ConnectionManager.h">
+      <Filter>Header Files\openscam\remote</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\probe\Probe.h">
+      <Filter>Header Files\openscam\probe</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\probe\ProbeGrid.h">
+      <Filter>Header Files\openscam\probe</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\probe\ProbePoint.h">
+      <Filter>Header Files\openscam\probe</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\pcb\Arc.h">
+      <Filter>Header Files\openscam\pcb</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\pcb\Element.h">
+      <Filter>Header Files\openscam\pcb</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\pcb\ElementArc.h">
+      <Filter>Header Files\openscam\pcb</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\pcb\ElementLine.h">
+      <Filter>Header Files\openscam\pcb</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\pcb\Factory.h">
+      <Filter>Header Files\openscam\pcb</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\pcb\Layer.h">
+      <Filter>Header Files\openscam\pcb</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\pcb\Layout.h">
+      <Filter>Header Files\openscam\pcb</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\pcb\Line.h">
+      <Filter>Header Files\openscam\pcb</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\pcb\NetList.h">
+      <Filter>Header Files\openscam\pcb</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\pcb\Object.h">
+      <Filter>Header Files\openscam\pcb</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\pcb\Pad.h">
+      <Filter>Header Files\openscam\pcb</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\pcb\PCB.h">
+      <Filter>Header Files\openscam\pcb</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\pcb\Pin.h">
+      <Filter>Header Files\openscam\pcb</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\pcb\Point.h">
+      <Filter>Header Files\openscam\pcb</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\pcb\Polygon.h">
+      <Filter>Header Files\openscam\pcb</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\pcb\String.h">
+      <Filter>Header Files\openscam\pcb</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\pcb\Symbol.h">
+      <Filter>Header Files\openscam\pcb</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\pcb\Text.h">
+      <Filter>Header Files\openscam\pcb</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\pcb\Via.h">
+      <Filter>Header Files\openscam\pcb</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\opt\AnnealState.h">
+      <Filter>Header Files\openscam\opt</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\opt\Group.h">
+      <Filter>Header Files\openscam\opt</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\opt\Opt.h">
+      <Filter>Header Files\openscam\opt</Filter>
+    </ClInclude>
+    <ClInclude Include="openscam\opt\Path.h">
+      <Filter>Header Files\openscam\opt</Filter>
+    </ClInclude>
+    <ClInclude Include="glew\glew.h">
+      <Filter>Header Files\glew</Filter>
+    </ClInclude>
+    <ClInclude Include="glew\glxew.h">
+      <Filter>Header Files\glew</Filter>
+    </ClInclude>
+    <ClInclude Include="glew\wglew.h">
+      <Filter>Header Files\glew</Filter>
+    </ClInclude>
+    <ClInclude Include="clipper\clipper.hpp">
+      <Filter>Header Files\clipper</Filter>
+    </ClInclude>
+    <ClInclude Include="tplang\Axes.h">
+      <Filter>Header Files\tplang</Filter>
+    </ClInclude>
+    <ClInclude Include="tplang\ClipperLibrary.h">
+      <Filter>Header Files\tplang</Filter>
+    </ClInclude>
+    <ClInclude Include="tplang\DXFLibrary.h">
+      <Filter>Header Files\tplang</Filter>
+    </ClInclude>
+    <ClInclude Include="tplang\GCodeLibrary.h">
+      <Filter>Header Files\tplang</Filter>
+    </ClInclude>
+    <ClInclude Include="tplang\GCodeMachine.h">
+      <Filter>Header Files\tplang</Filter>
+    </ClInclude>
+    <ClInclude Include="tplang\Interpreter.h">
+      <Filter>Header Files\tplang</Filter>
+    </ClInclude>
+    <ClInclude Include="tplang\Javascript.h">
+      <Filter>Header Files\tplang</Filter>
+    </ClInclude>
+    <ClInclude Include="tplang\MachineAdapter.h">
+      <Filter>Header Files\tplang</Filter>
+    </ClInclude>
+    <ClInclude Include="tplang\MachineEnum.h">
+      <Filter>Header Files\tplang</Filter>
+    </ClInclude>
+    <ClInclude Include="tplang\MachineInterface.h">
+      <Filter>Header Files\tplang</Filter>
+    </ClInclude>
+    <ClInclude Include="tplang\MachineLinearizer.h">
+      <Filter>Header Files\tplang</Filter>
+    </ClInclude>
+    <ClInclude Include="tplang\MachineMatrix.h">
+      <Filter>Header Files\tplang</Filter>
+    </ClInclude>
+    <ClInclude Include="tplang\MachinePipeline.h">
+      <Filter>Header Files\tplang</Filter>
+    </ClInclude>
+    <ClInclude Include="tplang\MachineState.h">
+      <Filter>Header Files\tplang</Filter>
+    </ClInclude>
+    <ClInclude Include="tplang\MachineUnitAdapter.h">
+      <Filter>Header Files\tplang</Filter>
+    </ClInclude>
+    <ClInclude Include="tplang\MatrixLibrary.h">
+      <Filter>Header Files\tplang</Filter>
+    </ClInclude>
+    <ClInclude Include="tplang\MoveSink.h">
+      <Filter>Header Files\tplang</Filter>
+    </ClInclude>
+    <ClInclude Include="tplang\MoveStream.h">
+      <Filter>Header Files\tplang</Filter>
+    </ClInclude>
+    <ClInclude Include="tplang\TPLContext.h">
+      <Filter>Header Files\tplang</Filter>
+    </ClInclude>
+    <ClInclude Include="tplang\TransMatrix.h">
+      <Filter>Header Files\tplang</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\add.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\remove.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\about.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\back.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\backward.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\bottom.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\configure.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\end.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\export.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\faster.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\forward.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\front.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\isometric.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\left.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\new.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\open.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\play.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\pause.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\quit.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\restart.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\right.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\save_as.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\save.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\slower.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\snapshot.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\start.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\stop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\top.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\openscam.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\go-left.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\go-right.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\bbox.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\wire.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\smooth.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\surface.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\path.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\tool.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\axes.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\no-surface.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\revert.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\donate.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bitcoin.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\openscam-bitcoin-donations.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\paypal_donate.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\paypal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\cut_surface.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\running.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\idle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\help.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\clear.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\undo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\redo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\cut.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\copy.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\paste.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\select-all.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\delete.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,193 @@
+﻿Build started 15/04/2015 12:57:36 AM.
+     1>Project "c:\Users\gregory\documents\visual studio 2010\Projects\openscam\openscam\openscam.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\openscam.unsuccessfulbuild".
+       CustomBuild:
+         Moc'ing QtWin.h...
+         Moc'ing ProjectModel.h...
+         Moc'ing NCEdit.h...
+         Moc'ing GLView.h...
+         Moc'ing FileTabManager.h...
+         Moc'ing DonateDialog.h...
+         Moc'ing AboutDialog.h...
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\4.8.6\include /I.\GeneratedFiles\Debug /IC:\Qt\4.8.6\include\QtCore /IC:\Qt\4.8.6\include\QtGui /IC:\Qt\4.8.6\include\QtOpenGL /IC:\build\cbang\src /IC:\build\v8\depot_tools\v8\include /IC:\build\freetype\include /IC:\build\cairo\include /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_OPENGL_LIB /D USING_CBANG /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt clipper\clipper.cpp GeneratedFiles\Debug\moc_AboutDialog.cpp GeneratedFiles\Debug\moc_DonateDialog.cpp GeneratedFiles\Debug\moc_FileTabManager.cpp GeneratedFiles\Debug\moc_GLView.cpp GeneratedFiles\Debug\moc_NCEdit.cpp GeneratedFiles\Debug\moc_ProjectModel.cpp GeneratedFiles\Debug\moc_QtWin.cpp main.cpp openscam\contour\CellSlice.cpp openscam\contour\CompositeSurface.cpp openscam\contour\ContourGenerator.cpp openscam\contour\DualContouring.cpp openscam\contour\ElementSurface.cpp openscam\contour\FieldFunction.cpp openscam\contour\HermiteData.cpp openscam\contour\HermiteSlice.cpp openscam\contour\MarchingCubes.cpp openscam\contour\QEF.cpp openscam\contour\SampleSlice.cpp openscam\contour\Surface.cpp openscam\cutsim\AABB.cpp openscam\cutsim\AABBTree.cpp openscam\cutsim\CompositeSweep.cpp openscam\cutsim\ConicSweep.cpp openscam\cutsim\CutSim.cpp openscam\cutsim\CutWorkpiece.cpp openscam\cutsim\Move.cpp openscam\cutsim\MoveType.cpp openscam\cutsim\NCFile.cpp openscam\cutsim\Project.cpp openscam\cutsim\ResolutionMode.cpp openscam\cutsim\SpheroidSweep.cpp openscam\cutsim\Sweep.cpp openscam\cutsim\ToolPath.cpp openscam\cutsim\ToolSweep.cpp openscam\cutsim\Workpiece.cpp openscam\dxf\dxflib\dl_dxf.cpp openscam\dxf\dxflib\dl_writer_ascii.cpp openscam\dxf\DXFReader.cpp openscam\gcode\ast\Assign.cpp openscam\gcode\ast\BinaryOp.cpp openscam\gcode\ast\Block.cpp openscam\gcode\ast\Comment.cpp openscam\gcode\ast\FunctionCall.cpp openscam\gcode\ast\NamedReference.cpp openscam\gcode\ast\Number.cpp openscam\gcode\ast\OCode.cpp openscam\gcode\ast\Operator.cpp openscam\gcode\ast\Program.cpp openscam\gcode\ast\QuotedExpr.cpp openscam\gcode\ast\Reference.cpp openscam\gcode\ast\UnaryOp.cpp openscam\gcode\ast\Word.cpp openscam\gcode\Codes.cpp openscam\gcode\Evaluator.cpp openscam\gcode\GCodeInterpreter.cpp openscam\gcode\Interpreter.cpp openscam\gcode\ModalGroup.cpp openscam\gcode\OCodeInterpreter.cpp openscam\gcode\Parser.cpp openscam\gcode\Printer.cpp openscam\gcode\Tokenizer.cpp openscam\gcode\TokenType.cpp openscam\opt\AnnealState.cpp openscam\opt\Group.cpp openscam\opt\Opt.cpp openscam\opt\Path.cpp openscam\pcb\Arc.cpp openscam\pcb\Element.cpp openscam\pcb\ElementArc.cpp openscam\pcb\ElementLine.cpp openscam\pcb\Layer.cpp openscam\pcb\Layout.cpp openscam\pcb\Line.cpp openscam\pcb\NetList.cpp openscam\pcb\Object.cpp openscam\pcb\Pad.cpp openscam\pcb\Pin.cpp openscam\pcb\Polygon.cpp openscam\pcb\Symbol.cpp openscam\pcb\Text.cpp openscam\pcb\Via.cpp openscam\probe\Probe.cpp openscam\probe\ProbeGrid.cpp openscam\qt\AboutDialog.cpp openscam\qt\ClickWidget.cpp openscam\qt\CutSimThread.cpp openscam\qt\DonateDialog.cpp openscam\qt\ExportDialog.cpp openscam\qt\FileDialog.cpp openscam\qt\FileTabManager.cpp openscam\qt\GCodeHighlighter.cpp openscam\qt\GLView.cpp openscam\qt\Highlighter.cpp openscam\qt\NCEdit.cpp openscam\qt\NewDialog.cpp openscam\qt\ProjectModel.cpp openscam\qt\QApplication.cpp openscam\qt\QtApp.cpp openscam\qt\QtWin.cpp openscam\qt\SidebarWidget.cpp openscam\qt\SurfaceThread.cpp openscam\qt\ToolPathThread.cpp openscam\qt\TPLHighlighter.cpp openscam\remote\Connection.cpp openscam\remote\ConnectionManager.cpp openscam\render\Renderer.cpp openscam\render\RenderJob.cpp openscam\render\RenderMode.cpp openscam\sim\Controller.cpp openscam\sim\Machine.cpp openscam\sim\Tool.cpp openscam\sim\ToolShape.cpp openscam\sim\ToolTable.cpp openscam\sim\ToolUnits.cpp openscam\stl\STL.cpp openscam\value\ValueGroup.cpp openscam\value\ValueSet.cpp openscam\view\BoundsView.cpp openscam\view\Color.cpp openscam\view\CuboidView.cpp openscam\view\GL.cpp openscam\view\GLFreeType.cpp openscam\view\ToolPathView.cpp openscam\view\ToolView.cpp openscam\view\View.cpp openscam\view\Viewer.cpp openscam\view\ViewPort.cpp tplang\Axes.cpp tplang\ClipperLibrary.cpp tplang\DXFLibrary.cpp tplang\GCodeLibrary.cpp tplang\GCodeMachine.cpp tplang\Interpreter.cpp tplang\Javascript.cpp tplang\MachineLinearizer.cpp tplang\MachineMatrix.cpp tplang\MachinePipeline.cpp tplang\MachineState.cpp tplang\MachineUnitAdapter.cpp tplang\MatrixLibrary.cpp tplang\MoveSink.cpp tplang\MoveStream.cpp tplang\TPLContext.cpp tplang\TransMatrix.cpp
+         clipper.cpp
+         moc_AboutDialog.cpp
+         moc_DonateDialog.cpp
+         moc_FileTabManager.cpp
+         moc_GLView.cpp
+         moc_NCEdit.cpp
+         moc_ProjectModel.cpp
+         moc_QtWin.cpp
+     1>C:\build\cbang\src\cbang/iostream/LineBufferDevice.h(36): fatal error C1083: Cannot open include file: 'boost/iostreams/categories.hpp': No such file or directory
+         main.cpp
+         CellSlice.cpp
+         CompositeSurface.cpp
+         ContourGenerator.cpp
+         DualContouring.cpp
+         ElementSurface.cpp
+         FieldFunction.cpp
+         HermiteData.cpp
+         HermiteSlice.cpp
+         MarchingCubes.cpp
+         QEF.cpp
+         SampleSlice.cpp
+         Generating Code...
+         Compiling...
+         Surface.cpp
+         AABB.cpp
+         AABBTree.cpp
+         CompositeSweep.cpp
+         ConicSweep.cpp
+         CutSim.cpp
+     1>openscam\cutsim\CutSim.cpp(50): warning C4355: 'this' : used in base member initializer list
+         CutWorkpiece.cpp
+         Move.cpp
+         MoveType.cpp
+         NCFile.cpp
+         Project.cpp
+         ResolutionMode.cpp
+         SpheroidSweep.cpp
+         Sweep.cpp
+         ToolPath.cpp
+         ToolSweep.cpp
+         Workpiece.cpp
+         dl_dxf.cpp
+         dl_writer_ascii.cpp
+         DXFReader.cpp
+         Generating Code...
+         Compiling...
+         Assign.cpp
+         BinaryOp.cpp
+         Block.cpp
+         Comment.cpp
+         FunctionCall.cpp
+         NamedReference.cpp
+         Number.cpp
+         OCode.cpp
+         Operator.cpp
+         Program.cpp
+         QuotedExpr.cpp
+         Reference.cpp
+         UnaryOp.cpp
+         Word.cpp
+         Codes.cpp
+         Evaluator.cpp
+         GCodeInterpreter.cpp
+         Interpreter.cpp
+         ModalGroup.cpp
+         OCodeInterpreter.cpp
+         Generating Code...
+         Compiling...
+         Parser.cpp
+         Printer.cpp
+         Tokenizer.cpp
+         TokenType.cpp
+         AnnealState.cpp
+         Group.cpp
+         Opt.cpp
+     1>openscam\opt\Opt.cpp(40): warning C4355: 'this' : used in base member initializer list
+         Path.cpp
+         Arc.cpp
+         Element.cpp
+         ElementArc.cpp
+         ElementLine.cpp
+         Layer.cpp
+         Layout.cpp
+         Line.cpp
+         NetList.cpp
+         Object.cpp
+         Pad.cpp
+         Pin.cpp
+         Polygon.cpp
+         Generating Code...
+         Compiling...
+         Symbol.cpp
+         Text.cpp
+         Via.cpp
+         Probe.cpp
+     1>openscam\probe\Probe.cpp(43): warning C4355: 'this' : used in base member initializer list
+     1>openscam\probe\Probe.cpp(44): warning C4355: 'this' : used in base member initializer list
+         ProbeGrid.cpp
+         AboutDialog.cpp
+         ClickWidget.cpp
+         CutSimThread.cpp
+         DonateDialog.cpp
+         ExportDialog.cpp
+         FileDialog.cpp
+     1>C:\build\cbang\src\cbang/iostream/LineBufferDevice.h(36): fatal error C1083: Cannot open include file: 'boost/iostreams/categories.hpp': No such file or directory
+         FileTabManager.cpp
+     1>C:\build\cbang\src\cbang/iostream/LineBufferDevice.h(36): fatal error C1083: Cannot open include file: 'boost/iostreams/categories.hpp': No such file or directory
+         GCodeHighlighter.cpp
+         GLView.cpp
+     1>C:\build\cbang\src\cbang/iostream/LineBufferDevice.h(36): fatal error C1083: Cannot open include file: 'boost/iostreams/categories.hpp': No such file or directory
+         Highlighter.cpp
+         NCEdit.cpp
+         NewDialog.cpp
+         ProjectModel.cpp
+         QApplication.cpp
+         QtApp.cpp
+     1>C:\build\cbang\src\cbang/iostream/LineBufferDevice.h(36): fatal error C1083: Cannot open include file: 'boost/iostreams/categories.hpp': No such file or directory
+         Generating Code...
+         Compiling...
+         QtWin.cpp
+     1>C:\build\cbang\src\cbang/iostream/LineBufferDevice.h(36): fatal error C1083: Cannot open include file: 'boost/iostreams/categories.hpp': No such file or directory
+         SidebarWidget.cpp
+         SurfaceThread.cpp
+         ToolPathThread.cpp
+         TPLHighlighter.cpp
+         Connection.cpp
+     1>C:\build\cbang\src\cbang/socket/SocketDevice.h(41): fatal error C1083: Cannot open include file: 'boost/iostreams/categories.hpp': No such file or directory
+         ConnectionManager.cpp
+         Renderer.cpp
+         RenderJob.cpp
+         RenderMode.cpp
+         Controller.cpp
+     1>openscam\sim\Controller.cpp(29): fatal error C1083: Cannot open include file: 'boost/iostreams/filtering_stream.hpp': No such file or directory
+         Machine.cpp
+         Tool.cpp
+         ToolShape.cpp
+         ToolTable.cpp
+         ToolUnits.cpp
+         STL.cpp
+         ValueGroup.cpp
+         ValueSet.cpp
+         BoundsView.cpp
+         Generating Code...
+         Compiling...
+         Color.cpp
+         CuboidView.cpp
+         GL.cpp
+         GLFreeType.cpp
+     1>C:\build\freetype\include\ft2build.h(56): fatal error C1083: Cannot open include file: 'freetype/config/ftheader.h': No such file or directory
+         ToolPathView.cpp
+         ToolView.cpp
+         View.cpp
+         Viewer.cpp
+         ViewPort.cpp
+         Axes.cpp
+         ClipperLibrary.cpp
+         DXFLibrary.cpp
+         GCodeLibrary.cpp
+         GCodeMachine.cpp
+         Interpreter.cpp
+         Javascript.cpp
+         MachineLinearizer.cpp
+         MachineMatrix.cpp
+         MachinePipeline.cpp
+         MachineState.cpp
+         Generating Code...
+         Compiling...
+         MachineUnitAdapter.cpp
+         MatrixLibrary.cpp
+         MoveSink.cpp
+         MoveStream.cpp
+         TPLContext.cpp
+         TransMatrix.cpp
+         Generating Code...
+     1>Done Building Project "c:\Users\gregory\documents\visual studio 2010\Projects\openscam\openscam\openscam.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:03:02.90
